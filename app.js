@@ -8,7 +8,7 @@ const taskRoutes = require('./routes/taskRoutes')
 const app = express();
 const PORT = 3005;
 
-const DB_NAME = 'studentDatabase';
+const DB_NAME = 'tasksDatabase';
 mongoose.connect(`mongodb+srv://bhavini:bhavini@cluster0.vvkdrux.mongodb.net/${DB_NAME}`, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
